@@ -1,0 +1,27 @@
+.center {
+    line-height: 200px;
+    padding: 0px 0;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .ag-theme-alpine {
+    --ag-header-row-column-group: rgb(0, 0, 0);
+    --ag-header-background-color: rgb(123, 68, 98);
+    --ag-header-foreground-color: white;
+    color: white;
+    --ag-font-size: 10px;
+    --ag-font-family: monospace;
+    align-self: center;
+    --ag-borders: solid;
+    --ag-header-column-separator-display: block;
+    --ag-header-column-separator-height: 100%;
+    --ag-header-column-separator-width: 2px;
+    --ag-header-column-separator-color: black;
+    --ag-header-row-background-color: black;
+    
+  }
+
+  .highcharts-title {
+    color: #fff;
+  }

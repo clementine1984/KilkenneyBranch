@@ -1,0 +1,33 @@
+.container.hoverable.p-3.border:hover {
+  /* background: yellow; make this whatever you want */
+  cursor: pointer;
+}
+.container.hoverable.p-3.border {
+  background: black;
+  color: white;
+}
+.container.p-3.border {
+  background: rgb(132, 0, 61);
+  color: white;
+}
+.react-time-picker__wrapper {
+  background: white;
+}
+.label1 {
+  color: white;
+}
+.label2 {
+  color: white;
+}
+.p {
+  font-weight: bolder;
+}
+#changeRowColor {
+  background: rgb(132, 0, 61);
+}
+.h5 {
+  color: white;
+}
+#salesheader {
+  color: white;
+}

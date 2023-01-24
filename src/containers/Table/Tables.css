@@ -1,0 +1,78 @@
+.ag-theme-alpine {
+  --ag-header-row-column-group: rgb(0, 0, 0);
+  --ag-header-background-color: rgb(132, 0, 61);
+  --ag-header-foreground-color: white;
+  color: white;
+  --ag-font-size: 10px;
+  --ag-font-family: monospace;
+  align-self: center;
+  --ag-borders: solid;
+  --ag-header-column-separator-display: block;
+  --ag-header-column-separator-height: 100%;
+  --ag-header-column-separator-width: 2px;
+  --ag-header-column-separator-color: black;
+  --ag-header-row-background-color: black;
+  
+}
+
+.ag-theme-alpine .ag-header-group-cell {
+  font-size: 20px;
+}
+
+.ag-theme-alpine .ag-header-cell {
+  font-size: 15px;
+  width: 20px;
+}
+
+
+.header {
+  align-self: center;
+  text-align: center;
+}
+
+.btnContainer {
+  flex: auto;
+  display: inline;
+}
+
+.buttons {
+  align-self: center;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 10%;
+  padding: 5px;
+  margin: 3px;
+}
+
+.smbuttons {
+  align-self: center;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 5%;
+  padding: 2px;
+  margin: 3px;
+  background: #ddd;
+}
+
+.exportBtn {
+  align-self: center;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 10%;
+  padding: 5px;
+  float: right;
+  margin: 3px;
+}
+
+.cell-span {
+  background-color: #00e5ff;
+}
+
+.Name {
+  font-weight: bold;
+}
