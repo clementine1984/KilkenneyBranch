@@ -11,7 +11,7 @@ const HorizontalFlow = () => {
       id: "horizontal-1",
       sourcePosition: "right",
       type: "input",
-      data: { label: " Facebook" },
+      data: { label: "Facebook (Social Media)" },
       position: { x: 0, y: 80 },
     },
     {
@@ -49,18 +49,18 @@ const HorizontalFlow = () => {
       data: { label: "Add to cart (Website)" },
       position: { x: 500, y: 230 },
     },
-    {
-      id: "horizontal-7",
-      sourcePosition: "right",
-      targetPosition: "left",
-      data: { label: "Node 7" },
-      position: { x: 750, y: 50 },
-    },
+    // {
+    //   id: "horizontal-7",
+    //   sourcePosition: "right",
+    //   targetPosition: "left",
+    //   data: { label: "Node 7" },
+    //   position: { x: 750, y: 50 },
+    // },
     {
       id: "horizontal-8",
       sourcePosition: "right",
       targetPosition: "left",
-      data: { label: "Node 8" },
+      data: { label: "Checkout" },
       position: { x: 750, y: 300 },
     },
   ];
@@ -72,6 +72,7 @@ const HorizontalFlow = () => {
       type: "smoothstep",
       target: "horizontal-2",
       animated: true,
+      label:'Own channel'
     },
     {
       id: "horizontal-e1-3",
@@ -85,7 +86,8 @@ const HorizontalFlow = () => {
       source: "horizontal-2",
       type: "smoothstep",
       target: "horizontal-4",
-      label: "edge label",
+      label: "Third-party to Retailer Controlled",
+      animated: true,
     },
     {
       id: "horizontal-e3-5",
