@@ -72,7 +72,7 @@ const HorizontalFlow = () => {
       type: "smoothstep",
       target: "horizontal-2",
       animated: true,
-      label:'Own channel'
+      label:'Third-party to Retailer Controlled'
     },
     {
       id: "horizontal-e1-3",
@@ -86,7 +86,7 @@ const HorizontalFlow = () => {
       source: "horizontal-2",
       type: "smoothstep",
       target: "horizontal-4",
-      label: "Third-party to Retailer Controlled",
+      label: "Own channel ",
       animated: true,
     },
     {
